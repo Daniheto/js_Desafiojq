@@ -60,6 +60,7 @@ const arrayBebidas = ["agua", "vino", "birra", "coca cola"];
 const filtro = arrayPrincipales.filter((elemento) => elemento.includes("i"));
 console.log(filtro);
 */
+
 const nuevosElemento = ["pastas", "pizzas", "milanesas", "sushi"];
 
 const lista = document.getElementById("list");
@@ -71,23 +72,3 @@ nuevosElemento.forEach((element) => {
 
   lista.appendChild(nuevoNodo);
 });
-
-/* dejo comentado otra manera que intente pero tampoco funciono */
-
-/*for (const elemento of nuevosElemento) {
-  let nuevoNodo = document.createElement("li");
-  nuevoNodo.innerHTML = elemento;
-  lista.appenChild(nuevoNodo);
-}*/
-
-/*
-let nuevo = "";
-const nuevosElemento = ["pastas", "pizzas", "milanesas", "sushi"];
-
-nuevosElemento.forEach(nuevosElementolist);
-
-document.getElementById("show").innerText = nuevo;
-
-function nuevosElementolist(item, index) {
-  nuevo += index + ": " + item + "<br>";
-}*/
