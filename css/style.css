@@ -1,3 +1,9 @@
 #list {
   font-size: medium;
 }
+
+.container {
+  align-items: center;
+  grid-column: auto;
+  margin-left: 2rem;
+}

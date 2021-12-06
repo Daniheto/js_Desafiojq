@@ -61,6 +61,8 @@ const filtro = arrayPrincipales.filter((elemento) => elemento.includes("i"));
 console.log(filtro);
 */
 
+/*
+
 const nuevosElemento = ["pastas", "pizzas", "milanesas", "sushi"];
 
 const lista = document.getElementById("list");
@@ -72,3 +74,4 @@ nuevosElemento.forEach((element) => {
 
   lista.appendChild(nuevoNodo);
 });
+*/
