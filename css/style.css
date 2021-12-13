@@ -7,3 +7,20 @@
   grid-column: auto;
   margin-left: 2rem;
 }
+
+.menu {
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 40%;
+}
+
+.body {
+  background-image: linear-gradient(
+    to right top,
+    #5d90dc,
+    #009bd2,
+    #00a1b9,
+    #23a29a,
+    #5ba07e
+  );
+}
