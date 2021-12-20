@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://bootswatch.com/5/vapor/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
     <title>Document</title>
   </head>
-  <body class="body">
+  <body>
     <main>
       <h1>Menu</h1>
       <section>
@@ -27,7 +33,7 @@
         </div>
         <div>
           <h2>Plato Principal</h2>
-          <ul id="list">
+          <ul>
             <li>choripan</li>
             <li>bondiola</li>
             <li>vacio</li>
@@ -54,7 +60,7 @@
         </div>
         <div>
           <h2>Sugerencias</h2>
-          <ul id="sugerencias"></ul>
+          <ul id="list"></ul>
         </div>
       </section>
     </main>
@@ -64,21 +70,26 @@
           <label for="comida" class="form-label"
             >¿Cúal es tu comida preferida?</label
           >
-          <input type="text" class="form-control" id="comidaPreferida" />
+          <input
+            type="text"
+            class="form-control"
+            id="comidaPreferida"
+            name="comidaPreferida"
+          />
         </div>
         <br />
         <div class="mb-3">
           <label for="entrada" class="form-label"
             >¿Que entrada te gustarÍa ver en el menú?</label
           >
-          <input type="text" class="form-control" id="entrada" />
+          <input type="text" class="form-control" id="entrada" name="entrada" />
         </div>
         <br />
         <div class="mb-3">
           <label for="postre" class="form-label"
             >¿Que Postre te gustarÍa ver en el menú?</label
           >
-          <input type="text" class="form-control" id="postre" />
+          <input type="text" class="form-control" id="postre" name="postre" />
         </div>
         <br />
         <button type="submit" class="btn btn-primary">Cargar elecciones</button>
@@ -99,6 +110,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/clase9.js"></script>
+    <script src="./js/clase12.js"></script>
   </body>
 </html>
