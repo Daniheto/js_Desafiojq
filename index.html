@@ -4,19 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <link rel="stylesheet" href="./css/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+=======
+    <link rel="stylesheet" href="./css/style.css">
+>>>>>>> 21b23d6ee226003bf13557ddf87982afd83f93ab
     <title>Document</title>
   </head>
   <body class="body">
     <main>
-      <h1>Menu</h1>
+      <div class="container">
+        <h1 class="menu">Menu</h1>
       <section>
-        <div>
+        <div class="row">
+          <div class="col">
           <h2>Entradas</h2>
           <ul>
             <li>mollejas</li>
@@ -25,16 +31,19 @@
             <li>empanadas</li>
           </ul>
         </div>
-        <div>
+        
+        <div class="col">
           <h2>Plato Principal</h2>
-          <ul id="list">
+          <ul>
             <li>choripan</li>
             <li>bondiola</li>
             <li>vacio</li>
             <li>matambre</li>
           </ul>
         </div>
-        <div>
+      </div>
+      <div class="row">
+        <div class="col">
           <h2>Postre</h2>
           <ul>
             <li>chocotorta</li>
@@ -43,7 +52,7 @@
             <li>helado</li>
           </ul>
         </div>
-        <div>
+        <div class="col">
           <h2>Bebidas</h2>
           <ul>
             <li>agua</li>
@@ -52,9 +61,12 @@
             <li>coca cola</li>
           </ul>
         </div>
+      </div>
         <div>
           <h2>Sugerencias</h2>
-          <ul id="sugerencias"></ul>
+          <p id="informacion"></p>
+          <p id="informacion2"></p>
+          <ul id="list"></ul>
         </div>
       </section>
     </main>
@@ -64,21 +76,26 @@
           <label for="comida" class="form-label"
             >¿Cúal es tu comida preferida?</label
           >
-          <input type="text" class="form-control" id="comidaPreferida" />
+          <input
+            type="text"
+            class="form-control"
+            id="comidaPreferida"
+            name="comidaPreferida"
+          />
         </div>
         <br />
         <div class="mb-3">
           <label for="entrada" class="form-label"
             >¿Que entrada te gustarÍa ver en el menú?</label
           >
-          <input type="text" class="form-control" id="entrada" />
+          <input type="text" class="form-control" id="entrada" name="entrada" />
         </div>
         <br />
         <div class="mb-3">
           <label for="postre" class="form-label"
             >¿Que Postre te gustarÍa ver en el menú?</label
           >
-          <input type="text" class="form-control" id="postre" />
+          <input type="text" class="form-control" id="postre" name="postre" />
         </div>
         <br />
         <button type="submit" class="btn btn-primary">Cargar elecciones</button>
@@ -86,6 +103,10 @@
       <br />
       <button id="boton">Enviar</button>
     </div>
+<<<<<<< HEAD
+=======
+  </div>
+>>>>>>> 21b23d6ee226003bf13557ddf87982afd83f93ab
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -99,6 +120,10 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+<<<<<<< HEAD
     <script src="./js/clase9.js"></script>
+=======
+    <script src="./js/segundaEntrega.js"></script>
+>>>>>>> 21b23d6ee226003bf13557ddf87982afd83f93ab
   </body>
 </html>
